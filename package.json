@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
   "api:test": "newman run api-test/test.js&& newman run api-test/test1.js",
-  "renew:api:htlml:report": "newman run api-test/test.js -r html&& newman run api-test/test1.js -r html"
+  "api:htlml:report": "newman run api-test/test.js -r html&& newman run api-test/test1.js -r html"
 },
   "repository": {
     "type": "git",

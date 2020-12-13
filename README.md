@@ -14,3 +14,8 @@ test.js is checking the response code 200 and if it's 200 then it will pass and 
 run the test
 cd API-Automated-Test-Mypedia
 npm run api:test
+
+For html report which you can seen in newman folder
+
+command to run
+npm run api:htlml:report
