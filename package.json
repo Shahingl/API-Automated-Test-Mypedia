@@ -1,0 +1,26 @@
+{
+  "name": "api-automated-test-mypedia",
+  "version": "1.0.0",
+  "description": "Automate back end api's",
+  "main": "index.js",
+  "scripts": {
+  "api:test": "newman run api-test/test.js&& newman run api-test/test1.js",
+  "renew:api:htlml:report": "newman run api-test/test.js -r html&& newman run api-test/test1.js -r html"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahingl/API-Automated-Test-Mypedia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahingl/API-Automated-Test-Mypedia/issues"
+  },
+  "homepage": "https://github.com/Shahingl/API-Automated-Test-Mypedia#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "newman": "^5.2.1",
+    "newman-reporter-html": "^1.0.5",
+    "postman": "^0.2.0"
+  }
+}
